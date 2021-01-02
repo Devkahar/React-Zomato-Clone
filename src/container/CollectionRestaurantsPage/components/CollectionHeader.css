@@ -1,0 +1,15 @@
+.collectionHeader{
+    
+}
+.collectionHeader > h1{
+    font-size: 50px;
+    font-family: inherit;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.822);
+}
+.collectionHeader > h3{
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 400;
+}
+

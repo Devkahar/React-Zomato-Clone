@@ -1,0 +1,44 @@
+.restaurantCard{
+    width: 262px;
+    position: relative;
+    margin: 8px;
+}
+.restaurantCard__back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 185px;
+    background: linear-gradient(305.27deg, rgba(0, 0, 0, 0.7) 0.19%, rgba(0, 0, 0, 0) 54.37%);
+    border-radius: 5px;
+}
+.restaurantCard__image{
+    width: 100%;
+    height: 185px;
+    
+}
+.restaurantCard__image> img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 5px !important;
+}
+.restaurantCard__text{
+    font-family: 'Lato',sans-serif;
+}
+.restaurantCard__text>h4{
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    margin: 10px 0 5px 0;
+}
+.description{
+    color: rgba(0, 0, 0, 0.575);
+}
+
+a{
+    text-decoration: none;
+}
+.text__locality{
+    margin-bottom: 5px;
+}
